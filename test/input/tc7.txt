@@ -1,9 +1,0 @@
-3 3 3
-DEFAULT
-XX
-X
-Y
-Y
-Y
-Z
-ZZ
