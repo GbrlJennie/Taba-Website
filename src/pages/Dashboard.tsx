@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { BookOpen, LogOut, Trophy, Award, Activity } from 'lucide-react';
+import { BookOpen, LogOut, Award, Activity } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useCourseProgress } from '../hooks/useCourseProgress';
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
-import { ChevronLeft, MoreVertical, GripVertical, Check } from 'lucide-react';
+import { ChevronLeft, MoreVertical, GripVertical } from 'lucide-react';
 import { useQuestions } from '../hooks/useQuestions';
 import { useQuizHistory } from '../hooks/useQuizHistory';
 

@@ -5,7 +5,7 @@ import { useCourseProgress } from '../hooks/useCourseProgress';
 
 export default function Course() {
   const navigate = useNavigate();
-  const { user } = useAuth();
+  useAuth();
   const { courseProgress, loading } = useCourseProgress();
 
   const courses = [

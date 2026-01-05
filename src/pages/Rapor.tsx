@@ -4,7 +4,7 @@ import { useQuizHistory } from '../hooks/useQuizHistory';
 
 export default function Rapor() {
   const navigate = useNavigate();
-  const { quizHistory, loading, refreshHistory } = useQuizHistory();
+  const { quizHistory, loading } = useQuizHistory();
 
   const totalQuizzes = quizHistory.length;
   const averageScore = totalQuizzes > 0 
