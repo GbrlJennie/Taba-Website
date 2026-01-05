@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Opsional: Reset sederhana */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background-color: #f8fafc; /* Warna background terang */
+}
